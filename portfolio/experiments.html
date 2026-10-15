@@ -28,7 +28,6 @@
 
         <section aria-labelledby="video-heading">
         <h2 id="video-heading">Video: throwing on the wheel</h2>
-        <!-- TODO: add a short clip at media/throwing.mp4 (keep it small!) -->
         <video controls width="480" preload="metadata">
             <source src="media/throwing.webm" type="video/webm">
             <source src="media/throwing.mp4" type="video/mp4">
@@ -38,10 +37,7 @@
 
         <section aria-labelledby="audio-heading">
         <h2 id="audio-heading">Audio: studio sounds</h2>
-        <!-- TODO: add a short clip at media/wheel.mp3 -->
         <audio controls preload="metadata">
-            <source src="media/wheel.ogg" type="audio/ogg">
-            <source src="media/wheel.mp3" type="audio/mpeg">
             <p>Your browser can't play this audio. <a href="media/wheel.mp3">Download it instead</a>.</p>
         </audio>
         </section>
@@ -49,7 +45,6 @@
         <section aria-labelledby="canvas-heading">
         <h2 id="canvas-heading">Canvas: a granny-square grid</h2>
         <canvas id="granny-square" width="160" height="160">A 3 by 3 grid of colored squares, like a granny-square blanket.</canvas>
-        <!-- Minimal JS allowed for canvas (under 15 lines) -->
         <script>
             const canvas = document.getElementById('granny-square');
             const ctx = canvas.getContext('2d');
