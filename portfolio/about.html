@@ -9,7 +9,9 @@
 </head>
 <body>
     <header>
-    <a href="index.html">Audrey's Studio</a>
+    <a href="index.html">
+        <svg width="40" height="40" viewBox="0 0 40 40" role="img" aria-label="Audrey's Studio logo"></svg>
+        Audrey's Studio</a>
     <nav aria-label="Main">
         <ul>
         <li><a href="index.html">Home</a></li>
@@ -28,7 +30,26 @@
             <h2 id="bio-heading">Hi, I'm Audrey</h2>
             <img src="images/placeholder.svg" alt="TODO: Photo of me at a pottery wheel or with yarn">
             <p>TODO: Write bio, how did I get into ceramics and crochet?</p>
-        </section>"
+            <p>
+                Based in <span>San Diego, CA</span><br>
+                Started Ceramics in: 2026<br>
+                Started Crocheting in: 2021
+            </p>
+        </section>
+
+        <section aria-labelledby="wip-heading">
+            <h2 id="wip-heading">Currently working on</h2>
+            <ul>
+                <li>
+                    <label for="wip-blanket">Granny square blanket</label>
+                    <progress id="wip-blanket" max="100" value="60">60%</progress>
+                </li>
+                <li>
+                    <label for="wip-mugs">Mug set</label>
+                    <progress id="wip-mugs" max="6" value="2">2 of 6</progress>
+                </li>
+            </ul>
+        </section>
 
         <section aria-labelledby="irl-heading">
             <h2 id="irl-heading">Where to find my work</h2>

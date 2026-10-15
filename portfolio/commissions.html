@@ -9,13 +9,15 @@
 </head>
 <body>
     <header>
-    <a href="index.html">Audrey's Studio</a>
+    <a href="index.html">
+        <svg width="40" height="40" viewBox="0 0 40 40" role="img" aria-label="Audrey's Studio logo"></svg>
+        Audrey's Studio
+    </a>
     <nav aria-label="Main">
         <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="ceramics.html">Ceramics</a></li>
         <li><a href="crochet.html">Crochet</a></li>
-        <li><a href="process.html">Process</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="commissions.html" aria-current="page">Commissions</a></li>
         </ul>
@@ -27,6 +29,14 @@
         <p>TODO: how it works (turnaround time, price range, etc.)</p>
 
         <button type="button">View terms</button>
+
+        <dialog id="terms-dialog" aria-labelledby="terms-heading">
+            <h2 id="terms-heading">Commission terms</h2>
+            <p>TODO: deposit, timeline, cancellations, shipping.</p>
+            <form method="dialog">
+                <button type="submit">Close</button>
+            </form>
+        </dialog>
 
         <section aria-labelledby="request-heading">
             <h2 id="request-heading">Request a Piece</h2>
